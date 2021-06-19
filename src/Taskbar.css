@@ -1,0 +1,48 @@
+button{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    border: 1px solid black;
+}
+
+#inp{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /* margin-left: 49px ;
+    text-align: center;
+    height: 44px;
+    width: 343px;
+    align: left; */
+    margin-left:49px;
+        width: 344px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        height: 44px;
+        background-color: rgb(51, 51, 51);
+        border: 1px solid rgb(51, 51, 51);
+        border-radius: 0%;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgb(255, 255, 255);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: rgb(255, 255, 255);
+  }
+
