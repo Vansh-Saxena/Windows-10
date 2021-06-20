@@ -1,4 +1,4 @@
-button{
+#windows{
     position: fixed;
     left: 0;
     bottom: 0;
@@ -6,6 +6,32 @@ button{
     background-color: black;
     border: 1px solid black;
 }
+
+#cortana{
+    margin-left: 392px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    height: 44px;
+    width: 60px;
+}
+
+#taskview{
+    margin-left: 452px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 60px;
+    height: 44px;
+}
+
+.color{
+    background-color: rgb(60, 54, 72);
+    border: 1px solid rgb(60, 54, 72);
+}
+
 
 #inp{
     position: fixed;
@@ -16,7 +42,7 @@ button{
     height: 44px;
     width: 343px;
     align: left; */
-    margin-left:49px;
+    margin-left:48px;
         width: 344px;
         box-sizing: border-box;
         border: 2px solid #ccc;
