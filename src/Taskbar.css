@@ -1,3 +1,4 @@
+/*TASK BAR BUTTONS*/
 #windows{
     position: fixed;
     left: 0;
@@ -14,16 +15,76 @@
     bottom: 0;
     text-align: center;
     height: 44px;
-    width: 60px;
+    width: 50px;
 }
 
 #taskview{
-    margin-left: 452px;
+    margin-left: 440px;
     position: fixed;
     left: 0;
     bottom: 0;
     text-align: center;
-    width: 60px;
+    width: 50px;
+    height: 44px;
+}
+
+#file_explorer{
+    margin-left: 489px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#store{
+    margin-left: 539px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#dropbox{
+    margin-left: 589px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#chrome{
+    margin-left: 639px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#word{
+    margin-left: 689px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#excel{
+    margin-left: 739px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
     height: 44px;
 }
 
@@ -57,7 +118,21 @@
         background-color: rgb(51, 51, 51);
         border: 1px solid rgb(51, 51, 51);
         border-radius: 0%;
+        color: #ffff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ::placeholder {
     color: rgb(255, 255, 255);
