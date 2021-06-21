@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
-import './Wallpaper.css';
 import Avengers from './Avengers1.jpg';
 
 
 class Wallpaper extends Component {
     render() {
         return(
-            <div>
+            <div id="Wallpaper">
                 <img></img>
             </div>
         );
+        /*src={Avengers} alt="Wallpaper" style={{"backgroundSize": "cover"}}*/
     }
 }
 

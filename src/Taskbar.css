@@ -6,6 +6,8 @@
     text-align: center;
     background-color: black;
     border: 1px solid black;
+    padding-bottom: 7.5px;
+    padding-left: 13px;
 }
 
 #cortana{
@@ -118,6 +120,8 @@
     height: 44px;
 }
 
+
+
 .color{
     background-color: rgb(60, 54, 72);
     border: 1px solid rgb(60, 54, 72);
@@ -152,23 +156,31 @@
 }
 
 #bspace{
-    margin-left: 939px;
+    margin-left: 933px;
     position: fixed;
     left: 0;
     bottom: 0;
-    text-align: center;
     width: 257px;
     height: 42px;
     background-color :rgb(60, 54, 72); 
+}
+
+
+
+#Wallpaper{
+    background: url(Avengers1.jpg) no-repeat center center fixed; 
+    height: 2000px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: relative;
 }
 
-
-#taskbar{
-    position: fixed;
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
-
-
 
 
 

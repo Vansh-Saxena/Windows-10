@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './Taskbar.css';
-import desktop from './desktop.png'
 import cortana from './cortana.png'
 import taskview from './task-view.png'
 import taskviewhover from './Task view hover.png'
@@ -11,7 +10,9 @@ class Taskbar extends Component {
     render() {
         return(
             <div id="taskbar">
-                <button id="windows"><img src={desktop} alt="Hello" width="34px" height="36px"></img></button>
+                <button id="windows">
+                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/windows-10.png" alt="Hello" width="21px" height="21px"></img>
+                </button>
                 <form>
                     <input type="search" placeholder="Type here to search" id="inp" onClick="Colorchange()"></input>
                 </form>
@@ -70,8 +71,6 @@ class Taskbar extends Component {
                     <img src="https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png" alt="file explorer"width="32px" height="30px"></img>
                     </a>
                 </button>
-                <div id="bspace" className="color">
-                </div>
             </div>
         );
     }
