@@ -88,6 +88,36 @@
     height: 44px;
 }
 
+#powerpoint{
+    margin-left: 789px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#sublime{
+    margin-left: 839px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#vsc{
+    margin-left: 889px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
 .color{
     background-color: rgb(60, 54, 72);
     border: 1px solid rgb(60, 54, 72);
@@ -109,7 +139,7 @@
         border: 2px solid #ccc;
         border-radius: 4px;
         font-size: 16px;
-        background-color: white;
+        background-color: rgb(246, 246, 246);
         background-image: url('searchicon.png');
         background-position: 10px 10px; 
         background-repeat: no-repeat;
@@ -121,10 +151,22 @@
         color: #ffff;
 }
 
+#bspace{
+    margin-left: 939px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 257px;
+    height: 42px;
+    background-color :rgb(60, 54, 72); 
+    position: relative;
+}
 
 
-
-
+#taskbar{
+    position: fixed;
+}
 
 
 
@@ -135,15 +177,15 @@
 
 
 ::placeholder {
-    color: rgb(255, 255, 255);
+    color: rgb(246, 246, 246);
     opacity: 1; /* Firefox */
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: rgb(255, 255, 255);
+   color: rgb(246, 246, 246);
   }
   
   ::-ms-input-placeholder { /* Microsoft Edge */
-   color: rgb(255, 255, 255);
+   color: rgb(246, 246, 246);
   }
 

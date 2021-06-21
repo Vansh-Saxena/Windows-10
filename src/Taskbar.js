@@ -10,7 +10,7 @@ class Taskbar extends Component {
     
     render() {
         return(
-            <div>
+            <div id="taskbar">
                 <button id="windows"><img src={desktop} alt="Hello" width="34px" height="36px"></img></button>
                 <form>
                     <input type="search" placeholder="Type here to search" id="inp" onClick="Colorchange()"></input>
@@ -37,7 +37,7 @@ class Taskbar extends Component {
                 </button>
                 <button id="dropbox" className="color">
                     <a href="www.youtube.com" target="_blank">
-                    <img src="https://img.icons8.com/metro/26/ffffff/dropbox.png" alt="file explorer"width="30px" height="30px"></img>
+                    <img src="https://img.icons8.com/metro/26/ffffff/dropbox.png" alt="file explorer"width="30px" height="25px"></img>
                     </a>
                 </button>
                 <button id="chrome" className="color">
@@ -65,17 +65,13 @@ class Taskbar extends Component {
                     <img src="https://img.icons8.com/fluent/48/ffffff/sublime-text.png" alt="file explorer"width="32px" height="30px"></img>
                     </a>
                 </button>
-                <button id="excel" className="color">
+                <button id="vsc" className="color">
                     <a href="www.youtube.com" target="_blank">
-                    <img src="https://img.icons8.com/fluent/48/ffffff/microsoft-excel-2019.png" alt="file explorer"width="32px" height="30px"></img>
+                    <img src="https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png" alt="file explorer"width="32px" height="30px"></img>
                     </a>
                 </button>
-                <button id="excel" className="color">
-                    <a href="www.youtube.com" target="_blank">
-                    <img src="https://img.icons8.com/fluent/48/ffffff/microsoft-excel-2019.png" alt="file explorer"width="32px" height="30px"></img>
-                    </a>
-                </button>
-                
+                <div id="bspace" className="color">
+                </div>
             </div>
         );
     }
