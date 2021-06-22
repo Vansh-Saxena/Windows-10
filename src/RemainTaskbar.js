@@ -21,7 +21,7 @@ const RemainTaskbar = () => {
             <div>
                 <div id="bspace" className="color">
                 </div>
-                <div>
+                <div id="remain">
                 <button id="Moreicon" className="color2">
                     <a href="www.youtube.com" target="_blank">
                     <img src="https://img.icons8.com/small/16/ffffff/long-arrow-up.png" alt="file explorer"width="22px" height="20px"></img>
@@ -52,19 +52,21 @@ const RemainTaskbar = () => {
                         <p>ENG</p>
                     </a>
                 </button>
+                </div>
                 <button id="Time" className="color">
                     <a href="www.youtube.com" target="_blank">
                         <p>{ctime} <br></br><span id="date">{d.getDay()}-{d.getMonth()}-{d.getFullYear()}</span></p>
                         
                     </a>
                 </button>
+                <div id="reaminleft">
                 <button id="ActionCenter" className="color">
                     <a href="www.youtube.com" target="_blank">
                         <img src="https://img.icons8.com/ios-filled/50/ffffff/filled-chat.png" alt="file explorer"width="32px" height="30px"></img>
                     </a>
                 </button>
                 </div>
-            </div>
+                </div>
         );
 }
 

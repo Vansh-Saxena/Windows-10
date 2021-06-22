@@ -4,15 +4,25 @@ import cortana from './cortana.png'
 import taskview from './task-view.png'
 import taskviewhover from './Task view hover.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Popup from './Component/Popup'
+import {useState} from 'react';
 
-class Taskbar extends Component {
-    
-    render() {
+const Taskbar = () => {
+    const [buttonPopup, setButtonPopup] = useState(false);
+
         return(
-            <div id="taskbar">
-                <button id="windows">
-                <img src="https://img.icons8.com/ios-glyphs/30/ffffff/windows-10.png" alt="Hello" width="21px" height="21px"></img>
-                </button>
+            <div id="taskbarmain">
+            <Popup trigger={buttonPopup} className="popup">
+                    <h3>My Popup</h3>
+                </Popup>
+                <div id="taskbar">
+                    <button id="windows" onClick={() => setButtonPopup(true)}>
+                    {/* <a href="www.youtube.com" target="_blank"> */}
+                    <img src="https://img.icons8.com/ios-glyphs/30/ffffff/windows-10.png" alt="Hello" width="21px" height="21px"></img>
+                    {/* </a> */}
+                    </button>
+                
+                
                 <form>
                     <input type="search" placeholder="Type here to search" id="inp" onClick="Colorchange()"></input>
                 </form>
@@ -72,8 +82,8 @@ class Taskbar extends Component {
                     </a>
                 </button>
             </div>
+            </div>
         );
-    }
 }
 
 export default Taskbar;

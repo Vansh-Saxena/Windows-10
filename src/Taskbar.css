@@ -3,12 +3,19 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    text-align: center;
     background-color: black;
     border: 1px solid black;
-    padding-bottom: 7.5px;
-    padding-left: 13px;
+    padding-left: 12px;
+    height: 44px;
+    width: 48px;
+    display: inline-flex;
+    align-items: center; 
 }
+
+#taskbar :hover {
+    background-color: rgb(52,52,52);
+}
+
 
 #cortana{
     margin-left: 392px;
@@ -49,6 +56,11 @@
     width: 50px;
     height: 44px;
 }
+
+
+
+
+
 
 #dropbox{
     margin-left: 589px;
@@ -168,13 +180,13 @@
 
 
 #Wallpaper{
-    background: url(Avengers1.jpg) no-repeat center center fixed; 
+    /* background: url(Avengers1.jpg) no-repeat center center fixed; 
     height: 2000px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative;
+    position: relative; */
 }
 
 html{
@@ -184,8 +196,13 @@ html{
 
 
 
+h3{
+    color:black;
+}
 
-
+#popup{
+    padding-bottom: 12px;
+}
 
 
 ::placeholder {
