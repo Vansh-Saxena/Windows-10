@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Windows-10/static/css/main.9ae3c4db.chunk.css",
+    "main.js": "/Windows-10/static/js/main.a3912597.chunk.js",
+    "main.js.map": "/Windows-10/static/js/main.a3912597.chunk.js.map",
+    "runtime-main.js": "/Windows-10/static/js/runtime-main.63d9146a.js",
+    "runtime-main.js.map": "/Windows-10/static/js/runtime-main.63d9146a.js.map",
+    "static/css/2.f3ccc082.chunk.css": "/Windows-10/static/css/2.f3ccc082.chunk.css",
+    "static/js/2.d645f1f8.chunk.js": "/Windows-10/static/js/2.d645f1f8.chunk.js",
+    "static/js/2.d645f1f8.chunk.js.map": "/Windows-10/static/js/2.d645f1f8.chunk.js.map",
+    "static/js/3.b382e886.chunk.js": "/Windows-10/static/js/3.b382e886.chunk.js",
+    "static/js/3.b382e886.chunk.js.map": "/Windows-10/static/js/3.b382e886.chunk.js.map",
+    "index.html": "/Windows-10/index.html",
+    "static/css/2.f3ccc082.chunk.css.map": "/Windows-10/static/css/2.f3ccc082.chunk.css.map",
+    "static/css/main.9ae3c4db.chunk.css.map": "/Windows-10/static/css/main.9ae3c4db.chunk.css.map",
+    "static/js/2.d645f1f8.chunk.js.LICENSE.txt": "/Windows-10/static/js/2.d645f1f8.chunk.js.LICENSE.txt",
+    "static/media/Taskbar.css": "/Windows-10/static/media/Avengers1.ceda24df.jpg",
+    "static/media/cortana.14734172.png": "/Windows-10/static/media/cortana.14734172.png",
+    "static/media/task-view.00894d4e.png": "/Windows-10/static/media/task-view.00894d4e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63d9146a.js",
+    "static/css/2.f3ccc082.chunk.css",
+    "static/js/2.d645f1f8.chunk.js",
+    "static/css/main.9ae3c4db.chunk.css",
+    "static/js/main.a3912597.chunk.js"
+  ]
+}
