@@ -1,0 +1,239 @@
+/*TASK BAR BUTTONS*/
+#windows{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    border: 1px solid black;
+    padding-left: 12px;
+    height: 44px;
+    width: 48px;
+    display: inline-flex;
+    align-items: center; 
+}
+
+#taskbar :hover {
+    background-color: rgb(52,52,52);
+}
+
+menu{
+    margin-right: 200px;
+}
+
+
+MenuList{
+    background-color:red;
+}
+
+
+
+
+#cortana{
+    margin-left: 392px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    height: 44px;
+    width: 50px;
+}
+
+#taskview{
+    margin-left: 440px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#file_explorer{
+    margin-left: 489px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#store{
+    margin-left: 539px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+
+.popup{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 150px;
+}
+
+
+
+#dropbox{
+    margin-left: 589px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#chrome{
+    margin-left: 639px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#word{
+    margin-left: 689px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#excel{
+    margin-left: 739px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#powerpoint{
+    margin-left: 789px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#sublime{
+    margin-left: 839px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+#vsc{
+    margin-left: 889px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 50px;
+    height: 44px;
+}
+
+
+
+.color{
+    background-color: rgb(60, 54, 72);
+    border: 1px solid rgb(60, 54, 72);
+}
+
+
+#inp{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /* margin-left: 49px ;
+    text-align: center;
+    height: 44px;
+    width: 343px;
+    align: left; */
+    margin-left:48px;
+        width: 344px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: rgb(246, 246, 246);
+        background-image: url('searchicon.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        height: 44px;
+        background-color: rgb(51, 51, 51);
+        border: 1px solid rgb(51, 51, 51);
+        border-radius: 0%;
+        color: #ffff;
+}
+
+
+
+
+#bspace{
+    margin-left: 933px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 257px;
+    height: 42px;
+    background-color :rgb(60, 54, 72); 
+}
+
+
+
+#Wallpaper{
+    background: url(Avengers1.jpg) no-repeat center center fixed; 
+    height: 2000px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+h3{
+    color:black;
+}
+
+#popup{
+    padding-bottom: 12px;
+}
+
+
+::placeholder {
+    color: rgb(246, 246, 246);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgb(246, 246, 246);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: rgb(246, 246, 246);
+  }
+

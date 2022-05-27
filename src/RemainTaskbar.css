@@ -1,0 +1,128 @@
+#Moreicon{
+    margin-left: 1192px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 22px;
+    height: 44px;
+    background-color :rgb(60, 54, 72); 
+    padding-right: 25px;
+    text-align: center;
+}
+
+.color2{
+    background-color: rgb(60, 54, 72);
+    border: 1px solid rgb(60, 54, 72);
+}
+
+#Meet{
+    margin-left: 1225px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 22px;
+    height: 44px;
+    background-color :rgb(60, 54, 72); 
+    padding-right: 25px;
+    text-align: center;
+}
+
+#drive{
+    margin-left: 1258px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 22px;
+    height: 44px;
+    background-color :rgb(60, 54, 72); 
+    padding-right: 25px;
+    text-align: center;
+}
+
+#wifi{
+    margin-left: 1291px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 22px;
+    height: 44px;
+    background-color :rgb(60, 54, 72); 
+    padding-right: 25px;
+    text-align: center;
+}
+
+#speaker{
+    margin-left: 1324px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 22px;
+    height: 44px;
+    background-color :rgb(60, 54, 72); 
+    padding-right: 25px;
+    text-align: center;
+    padding-right: 30px;
+}
+
+#Lang{
+    margin-left: 1362px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 22px;
+    height: 41px;
+    background-color :rgb(60, 54, 72); 
+    padding-right: 25px;
+    text-align: center;
+    padding-right: 40px;
+    padding-bottom: 41px;
+}
+
+#Time{
+    margin-left: 1410px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 83px;
+    height: 44px;
+    background-color :rgb(60, 54, 72);
+    display: inline-flex;
+    align-items: center; 
+}
+
+#ActionCenter{
+    margin-left: 1493px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 45px;
+    height: 44px;
+    background-color :rgb(60, 54, 72);
+}
+
+/* #h5{
+    color: #fff;
+    bottom: 200px;
+    top: 200px;
+} */
+
+#remain :hover {
+    background-color: rgb(52,52, 52);
+}
+
+#remainleft :hover {
+    background-color: rgb(52,52, 52);
+}
+
+
+#date{
+    font-family: 'Quicksand';
+    font-size: 13px;
+}
+
+h5{
+    color:#ffff;
+}
+p{
+    color: #ffff;
+}
